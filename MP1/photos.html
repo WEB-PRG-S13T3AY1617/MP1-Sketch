@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/photos.css">
+</head>
+<body>
+   <div id="imageView">
+       <span id="close"><b>X</b></span>
+       <div id="img"></div>
+       <div id="imageDetails">
+           <div id="title">Title: </div>
+           <div id="album">Album: </div>
+           <div id="owner">Owner: </div>
+       </div>
+   </div>
+    <div id="navigation">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#newsFeed" id="postsLink">Posts</a>
+            <a href="user.html">User</a>
+            <a href="photos.html" id="photosLink">Photos</a>
+        </nav>
+    </div>
+    <div id="newsFeed">
+        <div id="header">RECENT PHOTOS</div>
+        <div class="pages"></div>
+        <div id="posts"></div>
+        <div class="pages"></div>
+    </div>
+</body>
+<script src="script/jquery-3.2.1.min.js"></script>
+<script src="script/main.js"></script>
+<script src="script/photos.js"></script>
+</html>

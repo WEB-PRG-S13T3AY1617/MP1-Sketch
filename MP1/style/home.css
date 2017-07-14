@@ -1,0 +1,35 @@
+#landing{
+    color: #fff;
+    height: 100vh;
+    background: url(../img/landing-1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#landing .post{
+    position: absolute;
+    top: calc(50% - 80px);
+    left: 100%;
+    transition: left 0.6s ease-in;
+}
+
+#landing .move{
+    left: calc(50% - 250px) !important;
+}
+
+#landing .post:before{
+    content: "RECENT POST:";
+    top: -1.5em;
+    left: -5px;
+    font-weight: bold;
+    position: absolute;
+    font-size: 1em;
+    color: #fff;
+    width: calc(100% - 3px);
+    padding: 10px 0px 10px 15px;
+    background-color: #333;
+    border-radius: 5px 5px 0 0;
+}
